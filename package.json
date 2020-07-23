@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "cms-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "An open source CMS based on NodeJS and AngularJS",
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.4"
@@ -15,6 +15,14 @@
     "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/bobnetnetwork/cms",
+  "author": "Bobesz",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobnetnetwork/cms"
+  },
+  "bugs": {
+    "url": "https://github.com/bobnetnetwork/cms/issues"
+  }
 }
