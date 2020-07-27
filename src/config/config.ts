@@ -7,4 +7,7 @@ module.exports = {
     'dbServerDataBase': 'cms_dev',
 
     'logLevel': 'debug',
+
+    'serverPort': '9421',
+    'httpsEnabled': false,
 };
