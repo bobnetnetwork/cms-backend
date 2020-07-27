@@ -2,7 +2,7 @@
   "name": "cms-backend",
   "version": "1.0.0",
   "description": "An open source CMS based on NodeJS and AngularJS",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.16.4",
     "log4js": "^6.3.0",
@@ -15,7 +15,7 @@
     "typescript": "^3.3.3"
   },
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "tsc && node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/bobnetnetwork/cms",
