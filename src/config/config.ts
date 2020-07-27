@@ -6,4 +6,5 @@ module.exports = {
     'dbServerPwd': 'Almafa1.',
     'dbServerDataBase': 'cms_dev',
 
+    'logLevel': 'debug',
 };
