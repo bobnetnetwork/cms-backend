@@ -1,4 +1,3 @@
-import * as Express from 'express';
 import * as HTTPS from 'https';
 import * as HTTP from 'http';
 // @ts-ignore
