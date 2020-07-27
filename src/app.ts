@@ -1,7 +1,12 @@
 import express from "express";
+import { connect } from "./database/database";
+
+
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+connect();
 
 const server = app.listen(port);
 
