@@ -42,8 +42,8 @@ export class CategoryService extends ContentService {
             category.addedAt = new Date();
         }
 
-        if(data.parent) {
-            category.parent = data.parent;
+        if(data.subCategories) {
+            category.subCategories = data.subCategories;
         }
 
         if(data.articles) {
@@ -83,8 +83,8 @@ export class CategoryService extends ContentService {
                     category.addedAt = data.addedAt;
                 }
 
-                if(typeof data.parent !== "undefined") {
-                    category.parent = data.parent;
+                if(typeof data.subCategories !== "undefined") {
+                    category.subCategories = data.subCategories;
                 }
 
                 if(typeof data.articles !== "undefined") {

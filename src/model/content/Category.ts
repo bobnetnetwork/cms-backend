@@ -20,7 +20,7 @@ export class Category extends Typegoose {
     public addedAt?: Date;
 
     @prop()
-    public parent?: Category;
+    public subCategories?: Ref<Category>;
 
     @prop()
     public articles?: Ref<Article>;
@@ -32,7 +32,7 @@ export type CategoryType = {
     featuredImage?: string,
     slug?: string,
     addedAt?: Date,
-    parent?: Category,
+    subCategories?: Ref<Category>,
     articles?: Ref<Article>,
 }
 
