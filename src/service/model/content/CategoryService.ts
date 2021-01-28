@@ -54,7 +54,7 @@ export class CategoryService extends ContentService {
     }
 
     public async update(data: CategoryType, callback: (result: ResultMessageType) => void): Promise<void> {
-        this.model.findOne({slug: data.slug}, (err: Error, category: InstanceType<Category>) => {
+        this.model.findOne({slug: data.slug}, (err: Error, category: any) => {
             if(err) {
                 const result = new ErrorResultMessage(err, err.message.toString());
                 callback(result.getMessage());

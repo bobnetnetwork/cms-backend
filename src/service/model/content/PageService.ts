@@ -43,7 +43,7 @@ export class PageService extends ContentService {
     }
 
     public async update(data: PageType, callback: (result: ResultMessageType) => void): Promise<void> {
-        this.model.findOne({slug: data.slug}, (err: Error, page: InstanceType<Page>) => {
+        this.model.findOne({slug: data.slug}, (err: Error, page: any) => {
             if(err) {
                 const result = new ErrorResultMessage(err, err.message.toString());
                 callback(result.getMessage());

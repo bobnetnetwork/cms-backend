@@ -114,7 +114,7 @@ export abstract class ContentService implements IModelService {
         });
     }
 
-    protected abstract async isContainAllRequiredData(data: any, callback: (result: boolean) => void): Promise<void>;
+    protected abstract isContainAllRequiredData(data: any, callback: (result: boolean) => void): Promise<void>;
 
     protected abstract createContent(data: any): InstanceType<any>;
 

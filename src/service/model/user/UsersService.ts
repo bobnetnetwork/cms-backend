@@ -145,7 +145,7 @@ export class UsersService implements IModelService{
     public async update(data: UserType, callback: (result: ResultMessageType) => void): Promise<void>{
         UserModel.findOne({
             userName: data.userName,
-        }, (err: Error, user: InstanceType<User>) => {
+        }, (err: Error, user: any) => {
             if (err) {
                 const result = new ErrorResultMessage(err, err.message.toString());
                 callback(result.getMessage());
