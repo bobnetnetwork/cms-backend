@@ -131,7 +131,7 @@ export class OptionsService {
         callback(result);
     }
 
-    private createOption(data: OptionType): InstanceType<Option> {
+    private createOption(data: OptionType): any {
         const option = new OptionModel();
 
         option.name = data.name;

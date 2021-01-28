@@ -1,11 +1,11 @@
 {
-  "name": "cms-backend",
-  "version": "0.0.1",
+  "name": "@bobnetnetwork/cms-backend",
+  "version": "0.0.2",
   "description": "An open source CMS based on NodeJS and Angular",
   "main": "Server.js",
   "dependencies": {
     "@hasezoey/typegoose": "^5.9.2",
-    "@typegoose/typegoose": "^7.4.2",
+    "@typegoose/typegoose": "^7.4.6",
     "@types/cors": "^2.8.9",
     "@types/express-fileupload": "^1.1.6",
     "@types/express-jwt": "6.0.0",

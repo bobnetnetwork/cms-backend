@@ -46,6 +46,7 @@ export class HealthCheckRouter {
             };
             const healthCheck = {
                 message: "OK",
+                version: process.env.npm_package_version,
                 os: osData,
                 process: processData,
                 timestamp: Date.now(),
