@@ -6,7 +6,7 @@
   "dependencies": {
     "@hasezoey/typegoose": "^5.9.2",
     "@typegoose/typegoose": "^7.4.6",
-    "@types/cors": "^2.8.9",
+    "@types/cors": "^2.8.10",
     "@types/express-fileupload": "^1.1.6",
     "@types/express-jwt": "6.0.0",
     "@types/express-session": "^1.17.3",
